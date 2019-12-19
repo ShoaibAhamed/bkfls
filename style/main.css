@@ -1,0 +1,463 @@
+
+:root {
+  --main-bg-color: #221B68;
+}/*Creating a css variable*/
+button{
+    cursor: pointer;
+    outline: none;
+}
+@font-face{
+    font-family: avenir-md;
+    src: url(../fonts/Avenir-Medium.otf);
+}
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+header{
+    height: 69px;
+    background-color: #fff;
+}
+.logo{
+    line-height: 60px;
+    margin-left: 80px;
+}
+.header-button button{
+    line-height: 35px;
+    font-family: avenir-md;
+    position: absolute;
+    right: 80px;
+    top: 18px;
+    width: 110px;
+    height: 34px;
+    border-radius: 17px;
+    border:none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: var(--main-bg-color);
+}
+.main-banner{
+    height: 400px;
+    background-image: url(../images/bg-img.jpg);
+    background-size: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    color: #fff;
+}   
+.banner-content{
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+}
+.banner-content h1{
+    position: absolute;
+    left: 100px;
+    font-family: 'Source Serif Pro', serif; 
+    margin: 0;
+/*            font-weight: 400;*/
+}
+.quick-links{
+    background-color: #fff;
+    padding: 15px;
+}
+.quick-links .row{margin: 0;}
+.quick-links h1{
+    font-family: 'Source Serif Pro', serif;
+    margin: 0;
+    font-weight: 400;
+    position: relative;
+    top: 55%;
+    transform: translateY(-50%);
+    font-size: 2.2em;
+}
+.quick-links button{
+    font-family: avenir-md;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    margin: 5px auto;
+    border-radius: 20px;
+    color: #fff;
+    background-color: var(--main-bg-color);
+    border: 10px solid #fff;
+}
+
+/*Mcited*/
+.mcited-sec{
+    background-color: #EBEDEE;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.mcited-sec h1{
+    font-family: 'Source Serif Pro', serif;   
+    font-size: 1.5em;
+    margin: 0;
+    margin-top: 10px;
+}
+.mcited-sec .center-container{
+    text-align: center;
+}
+.mcited-sec button{
+    font-family: avenir-md;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    padding: 0;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mcited-sec img{ margin-top: 20px;}
+
+/*Cited*/
+.cited-sec{
+    padding: 25px;
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.cited-sec h1{
+    margin: 0;
+    font-family: 'Source Serif Pro', serif;   
+    font-size: 2.2em;
+}
+.padding-top{
+    padding-top: 40px;
+}
+h4{
+    font-family: avenir-md;
+    text-transform: uppercase;
+    font-size: .85em;
+}
+.cited-sec a{
+    color: inherit;
+}
+.cited-sec img{
+    width: 180px;
+}
+.cited-sec h2{
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 1em;
+    margin: 10px;
+}
+.cited-sec button{
+    font-family: avenir-md;
+    width: 183px;
+    height: 48px;
+    line-height: 48px;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 50px;
+}
+
+/*Engineering*/
+.engineering-sec{
+    padding: 15px;
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: #EBEDEE;
+}
+.engineering-sec h1{
+    margin: 0;
+    font-family: 'Source Serif Pro', serif;   
+    font-size: 2.2em;
+}
+.padding-top{
+    padding-top: 40px;
+}
+h4{
+    font-family: avenir-md;
+    text-transform: uppercase;
+    font-size: .85em;
+}
+.engineering-sec a{
+    color: inherit;
+}
+.engineering-sec img{
+    width: 180px;
+}
+.engineering-sec h2{
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 1em;
+    margin: 10px;
+}
+.engineering-sec button{
+    font-family: avenir-md;
+    width: 183px;
+    height: 48px;
+    line-height: 48px;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 50px;
+}
+
+/*Life Sciences*/
+.life-sec{
+    padding: 15px;
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: #FFF;
+}
+.life-sec h1{
+    margin: 0;
+    font-family: 'Source Serif Pro', serif;   
+    font-size: 2.2em;
+}
+.padding-top{
+    padding-top: 40px;
+}
+h4{
+    font-family: avenir-md;
+    text-transform: uppercase;
+    font-size: .85em;
+}
+.life-sec a{
+    color: inherit;
+}
+.life-sec img{
+    width: 180px;
+}
+.life-sec h2{
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 1em;
+    margin: 10px;
+}
+.life-sec button{
+    font-family: avenir-md;
+    width: 183px;
+    height: 48px;
+    line-height: 48px;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 50px;
+}
+
+/*Life Sciences*/
+.chemistry-sec{
+    padding: 15px;
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: #EBEDEE;
+}
+.chemistry-sec h1{
+    margin: 0;
+    font-family: 'Source Serif Pro', serif;   
+    font-size: 2.2em;
+}
+.padding-top{
+    padding-top: 40px;
+}
+h4{
+    font-family: avenir-md;
+    text-transform: uppercase;
+    font-size: .85em;
+}
+.chemistry-sec a{
+    color: inherit;
+}
+.chemistry-sec img{
+    width: 180px;
+}
+.chemistry-sec h2{
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 1em;
+    margin: 10px;
+}
+.chemistry-sec button{
+    font-family: avenir-md;
+    width: 183px;
+    height: 48px;
+    line-height: 48px;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 50px;
+}
+
+/*Medicine*/
+.medicine-sec{
+    padding: 15px;
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: #FFF;
+}
+.medicine-sec h1{
+    margin: 0;
+    font-family: 'Source Serif Pro', serif;   
+    font-size: 2.2em;
+}
+.padding-top{
+    padding-top: 40px;
+}
+h4{
+    font-family: avenir-md;
+    text-transform: uppercase;
+    font-size: .85em;
+}
+.medicine-sec a{
+    color: inherit;
+}
+.medicine-sec img{
+    width: 180px;
+}
+.medicine-sec h2{
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 1em;
+    margin: 10px;
+}
+.medicine-sec button{
+    font-family: avenir-md;
+    width: 183px;
+    height: 48px;
+    line-height: 48px;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 50px;
+}
+
+/*Business*/
+.business-sec{
+    padding: 15px;
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: #EBEDEE;
+}
+.business-sec h1{
+    margin: 0;
+    font-family: 'Source Serif Pro', serif;   
+    font-size: 2.2em;
+}
+.padding-top{
+    padding-top: 40px;
+}
+h4{
+    font-family: avenir-md;
+    text-transform: uppercase;
+    font-size: .85em;
+}
+.business-sec a{
+    color: inherit;
+}
+.business-sec img{
+    width: 180px;
+}
+.business-sec h2{
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 1em;
+    margin: 10px;
+}
+.business-sec button{
+    font-family: avenir-md;
+    width: 183px;
+    height: 48px;
+    line-height: 48px;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 50px;
+}
+footer{
+    background-color: var(--main-bg-color);
+    padding: 20px;
+}
+footer img{
+    filter: invert(100);
+    margin: 0;
+}
+footer button{
+    position: relative;
+    top: 55%;
+    transform: translateY(-50%);
+}
+.center-on-small{
+    text-align: left;
+}
+.footer-logo{
+    text-align: left;
+}
+.footer-btn{
+    text-align: right;
+}
+.footer-btn button{
+    font-size: 1.3em;
+    border: none;
+    background-color: transparent;
+    font-family: avenir-md;
+    color: #fff;
+    text-transform: uppercase;
+}
+.scroll-top{
+    z-index: 1;
+    position: fixed;
+    background: rgba(34,27,104,.5);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    right: 30px;
+    bottom: 90px;
+    cursor: pointer;
+    line-height: 45px;
+    text-align: center;
+    display: none;
+}
+.scroll-top:hover{
+    background: rgba(34,27,104,.8);
+}
+.scroll-top img{
+    width:25px;
+    filter: invert(100);
+}
+
+@media only screen and (min-width: 1200px){
+    .button-align button{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .banner-content h1{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        text-align: center;
+    }
+    .quick-links{
+        background-color: #fff;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .hide-on-small{
+        display: none;
+    }
+    .center-on-small{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .footer-logo{
+        text-align: center;
+        padding: 20px;
+    }
+    .footer-btn{
+        margin-top: 0px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .logo{
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+   .header-button button{
+        position: absolute;
+        right: 20px;
+        top: 35px;
+        width: 110px;
+        height: 34px;
+}
+}
